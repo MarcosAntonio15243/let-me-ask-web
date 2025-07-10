@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { dayjs } from "@/lib/dayjs";
 
 type GetRoomsAPIResponse = Array<{
   id: string;
@@ -54,7 +55,7 @@ export const Rooms = () => {
 
                       <div className="flex items-center gap-2">
                         <Badge className="text-xs" variant="secondary">
-                          {room.createdAt}
+                          {dayjs(room.createdAt).toNow()}
                         </Badge>
                         <Badge className="text-xs" variant="secondary">
                           {room.questionsCount} pergunta(s)
