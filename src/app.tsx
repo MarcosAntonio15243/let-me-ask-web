@@ -1,7 +1,19 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { RoomDetails } from "./pages/room-details";
+import { Rooms } from "./pages/rooms";
+
+const queryClient = new QueryClient();
 
 export function App() {
-
   return (
-    <div>Hello</div>
-  )
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Rooms />} index />
+          <Route element={<RoomDetails />} path="/room/:id" />
+        </Routes>
+      </BrowserRouter>
+    </QueryClientProvider>
+  );
 }
