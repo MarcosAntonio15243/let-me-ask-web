@@ -124,6 +124,6 @@ src/
 Made by [Marcos Antonio](https://github.com/MarcosAntonio15243).
 
 - 💻 Full Stack developer dedicated to building complete solutions by combining modern, functional user interfaces with robust back-end architectures.
-- 📚 This project represents my first experience using tools like **Drizzle ORM** and the **pgvector** extension, with a focus on AI-powered APIs based on multimedia content.
+- 📚 This project represents my first web application built with an AI agent, focused on delivering real-time, interactive Q&A experiences during live streams.
 - 🚀 Always open to feedback, collaboration, or ideas for improvement!
 - 📫 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/marcos-antonio-18059b234) or check out more of my projects here on GitHub.
