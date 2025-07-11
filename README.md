@@ -4,16 +4,16 @@ A web app developed during NLW Agents by Rocketseat for live streams and broadca
 
 ## Table of Contents
 
-- [Technologies](#technologies)  
-- [Backend for Full Experience](#backend-for-full-experience)  
-- [Setup and Configuration](#setup-and-configuration)  
-  - [1. Prerequisites](#1-prerequisites)  
-  - [2. Clone this Repository](#2-clone-this-repository)  
-  - [3. Install Dependencies](#3-install-dependencies)  
-- [Running the Project](#running-the-project)  
-- [Project Structure](#project-structure)  
-- [Author](#author)  
-
+- [Technologies](#technologies)
+- [Backend for Full Experience](#backend-for-full-experience)
+- [Setup and Configuration](#setup-and-configuration)
+  - [1. Prerequisites](#1-prerequisites)
+  - [2. Clone this Repository](#2-clone-this-repository)
+  - [3. Install Dependencies](#3-install-dependencies)
+- [Running the Project](#running-the-project)
+- [Screenshots](#screenshots)
+- [Project Structure](#project-structure)
+- [Author](#author)
 
 ## Technologies
 
@@ -77,6 +77,35 @@ npm run dev
 ```
 
 Then access the application at `http://localhost:5173`.
+
+## Screenshots
+
+Here are some screenshots of the application in action:
+
+<p align="center">
+  <img src="./assets/screenshots/home.png" width="80%" />
+  <br>Main screen showing all available rooms and the card to create a new room.
+</p>
+
+<p align="center">
+  <img src="./assets/screenshots/room-without-questions.png" width="80%" />
+  <br>Room view displaying no questions at the moment.
+</p>
+
+<p align="center">
+  <img src="./assets/screenshots/room-question-waiting-answer.png" width="80%" />
+  <br>Room showing a submitted question that is waiting for an answer.
+</p>
+
+<p align="center">
+  <img src="./assets/screenshots/room-with-question-and-answer.png" width="80%" />
+  <br>Room displaying a question with its AI-generated answer.
+</p>
+
+<p align="center">
+  <img src="./assets/screenshots/audio-record.png" width="80%" />
+  <br>Audio recording interface within the room.
+</p>
 
 ## Project Structure
 
